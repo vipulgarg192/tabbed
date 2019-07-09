@@ -16,6 +16,9 @@ class ThirdViewController: UIViewController , UITableViewDelegate , UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
 
+//        self.colorTableView.delegate = self
+//        self.colorTableView.dataSource = self
+        
         readStudentsInfoPListFile()
         // Do any additional setup after loading the view.
     }
@@ -53,11 +56,16 @@ class ThirdViewController: UIViewController , UITableViewDelegate , UITableViewD
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return studentDict.count
+        return self.studentDict.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellColors")
+        
+        cell?.textLabel?.text = self.studentDict[indexPath.row]
+        
+        return cell!
+        
     }
     
     
