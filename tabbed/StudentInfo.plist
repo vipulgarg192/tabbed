@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<string>orange</string>
+		<string>yellow</string>
+		<string>black</string>
+		<string>white</string>
+		<string>red</string>
+	</array>
+	<key>students</key>
+	<array>
+		<dict>
+			<key>studentName</key>
+			<string>Vipul</string>
+			<key>studentID</key>
+			<integer>1</integer>
+			<key>city</key>
+			<string>Mohali</string>
+		</dict>
+		<dict>
+			<key>studentID</key>
+			<integer>2</integer>
+			<key>studentName</key>
+			<string>Shivani</string>
+			<key>city</key>
+			<string>Mohali</string>
+		</dict>
+		<dict>
+			<key>studentID</key>
+			<integer>3</integer>
+			<key>studentName</key>
+			<string>Navdeep</string>
+			<key>city</key>
+			<string>Mohali</string>
+		</dict>
+		<dict>
+			<key>studentID</key>
+			<integer>4</integer>
+			<key>studentName</key>
+			<string>Naina</string>
+			<key>city</key>
+			<string>Mohali</string>
+		</dict>
+		<dict>
+			<key>studentID</key>
+			<integer>5</integer>
+			<key>studentName</key>
+			<string>Raj</string>
+			<key>city</key>
+			<string>Mohali</string>
+		</dict>
+		<dict>
+			<key>studentID</key>
+			<integer>6</integer>
+			<key>studentName</key>
+			<string>Hargun</string>
+			<key>city</key>
+			<string>Mohali</string>
+		</dict>
+	</array>
+</dict>
+</plist>
